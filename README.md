@@ -11,6 +11,8 @@ Using Pearson's Correlation : recommended movie based on movie name
 6. Function find the correlation of pivot table with movie name passed to function( for this we are using pandas 'corrwith')
 7. The recommendation list is then sorted from highest to lowest correlation and the movies with the top 10 correlations are then recommended
 
+<img src='Capture1.png'/>
+
 Using SVD : recommended movie based on userID
 
 The Singular Value Decomposition (SVD), a method from linear algebra is used as a collaborative filtering technique.  SVD has been generally used as a dimensionality reduction technique in machine learning. SVD is a matrix factorisation technique, which reduces the number of features of a dataset by reducing the space dimension from N-dimension to K-dimension. It uses a matrix structure where each row represents a user, and each column represents an item. The elements of this matrix are the ratings that are given to items by users.
@@ -18,5 +20,8 @@ The Singular Value Decomposition (SVD), a method from linear algebra is used as 
 1. We generate a demean matrix using pivot table with the values as the ratings, the users as the rows and the movie IDs as the columns
 2. We find SVD of demean matrix, matrix multiplication of U, sigma nd Vt gives us all predicted movie Ids
 3. Now we need to return the above result based on  highest predicted rating  and that the specified user hasn’t already rated
+
+
+<img src='Capture2.png'/>
 
 
