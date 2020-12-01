@@ -11,7 +11,7 @@ Using Pearson's Correlation : recommended movie based on movie name
 6. Function find the correlation of pivot table with movie name passed to function( for this we are using pandas 'corrwith')
 7. The recommendation list is then sorted from highest to lowest correlation and the movies with the top 10 correlations are then recommended
 
-<img src='Capture1.png'/>
+<img src='Capture1.PNG'/>
 
 Using SVD : recommended movie based on userID
 
@@ -22,6 +22,6 @@ The Singular Value Decomposition (SVD), a method from linear algebra is used as 
 3. Now we need to return the above result based on  highest predicted rating  and that the specified user hasn’t already rated
 
 
-<img src='Capture2.png'/>
+<img src='Capture2.PNG'/>
 
 
